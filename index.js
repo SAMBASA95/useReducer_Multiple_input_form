@@ -80,6 +80,12 @@ const Index = () => {
                 </div>
                 <button type='submit'>Add </button>
             </form>
+            <div className='item_row '>
+                <h4>firstName</h4>
+                <h4>age</h4>
+                <h4>email</h4>
+                <h4>remove</h4>
+            </div>
             {state.people.map((person) => {
                 return (
                     <div key={person.id} className='item'>

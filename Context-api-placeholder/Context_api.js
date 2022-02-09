@@ -30,15 +30,6 @@ const ContextAPI = () => {
         });
     };
 
-    // return (
-    //     <>
-    //         <PersonContext.Provider value={{ removePerson, people }}>
-    //             <h3>prop drilling</h3>
-    //             <List />
-    //         </PersonContext.Provider>
-    //     </>
-    // );
-
     if (error) {
         return <h3>Error: {error.message}</h3>;
     } else if (!isLoaded) {
